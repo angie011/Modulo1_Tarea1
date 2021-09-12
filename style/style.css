@@ -1,0 +1,107 @@
+*{   
+   margin:0px;
+   /*padding: 0;*/
+   font-size: 18px;
+   font-family: Tahoma;
+   line-height : 25px;
+   color:rebeccapurple;
+
+} 
+body{
+    background-color:beige;
+}
+
+nav{
+    margin-top: -75px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;     
+}
+.menu li a{
+    text-decoration: none;
+}
+.menu li a:hover{
+    background-color: brown;
+    color:white;
+}
+ header img{
+     margin-left: 15px;
+     margin-top: 20px;
+ }
+ header{
+     background-color: burlywood;
+     height: 145px;
+     border: none;
+     width: 100%;
+ }
+
+ article h1{
+     margin-top: 60px;
+     text-align: center;
+ }
+
+ article p{
+     padding-top: 60px;
+ }
+.fotoPlato{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+ .fotoPlato li{
+    list-style: none;
+}
+ h2{
+     padding-top: 75px;
+     text-align: center;
+     padding-bottom: 50px;
+ }
+
+ main{
+     text-align: center;
+ }
+
+footer{
+     text-align: center;
+     padding-top: 30px;
+     background-color: burlywood;
+     border: none;
+     width: 100%;
+ }
+
+ footer div{
+     padding-bottom: 20px;
+ } 
+
+ aside ul{
+     padding-bottom: 40px;
+     list-style: none;
+ }
+
+img + p{
+    padding-top: 0px;
+}
+
+.link{
+    padding-top: 15px;
+}
+
+.link ul{
+padding-top: 15px;
+}
+
+.link ul li a{
+    text-decoration: none;
+}
+
+.link ul li a:hover{
+    color: blue;
+}
+
+
+
